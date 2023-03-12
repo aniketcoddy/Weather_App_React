@@ -62,20 +62,25 @@ body {
   }
   
   .image {
-    width: 207px;
-    height: 206.32px;
-    margin: -16px 0px 1px -59px;
-    padding: 1px 4px 3px 22px;
+    position: relative;
+    width: 184px;
+    height: 188.32px;
+    margin: 6px 0px 1px -20px;
+    padding: -27px 19px 2px -19px;
     color: #ffffff;
   }
   h1 {
-    font-size: 45px;
-    margin: -147px 11px 75px 171px;
+    font-size: 58px;
+    margin: -151px 20px 67px 150px;
     font-family: "Plus Jakarta Sans";
     font-weight: 700;
     font-style: normal;
     text-transform: capitalize;
-    background: linear-gradient( 180deg, #c1cfdb 54.68%, rgba(255, 255, 255, 0) 187.46% );
+    background: linear-gradient(
+      180deg,
+      #c1cfdb 54.68%,
+      rgba(255, 255, 255, 0) 187.46%
+    );
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -83,8 +88,8 @@ body {
   }
   
   h2 {
-    font-size: 26px;
-    margin: -69px 8px 0px 170px;
+    font-size: 19px;
+    margin: -70px 3px 2px 165px;
     font-family: "Plus Jakarta Sans";
     font-weight: 600;
     font-style: normal;
@@ -102,16 +107,6 @@ body {
     height: 51px;
     width: 57px;
     margin: 18px -2px -65px 19px;
-  }
-
-  .warning{
-    align-items: center;
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-    font-size: 23px;
-    color: yellow;
-    font-family: Roboto;
   }
   
   .input4 {
@@ -159,7 +154,7 @@ body {
   .details {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    margin: 40px -134px -27px 16px;
     color: #ffffff;
     font-family: Roboto;
     font-size: 17px;
@@ -168,7 +163,7 @@ body {
   .details1 {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    margin: 75px 1px 1px -9px;
     color: #ffffff;
     font-family: Roboto;
     font-size: 17px;
@@ -176,7 +171,7 @@ body {
   .details2 {
     display: flex;
     flex-direction: row;
-   gap: 15px;
+    margin: 113px 1px 1px -118px;
     color: #ffffff;
     font-family: Roboto;
     font-size: 17px;
@@ -192,9 +187,6 @@ body {
   
   .box5 {
     display: flex;
-    flex-direction: column;
-    gap: 27px;
-    margin-top: 39px;
-    margin-left: 11px;
+    flex-direction: row;
   }
   
