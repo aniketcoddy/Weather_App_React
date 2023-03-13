@@ -39,6 +39,8 @@ const [error, setError] = useState(false);
       event.preventDefault()
     setClick(enter)
     setAppear(true)
+         
+    document.title=enter ;
   }
   const handleonenter=(e)=>{
       setEnter(e.target.value)
